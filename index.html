@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aureus Homes AG — Modern family homes in Switzerland. Premium, attainable, and sustainably built.">
+  <title>Aureus Homes AG — Smart Living</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="#" class="nav-logo"><img src="images/LOGONEW.png" alt="Aureus Homes" class="logo-img"></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-i18n="navHome">Home</a></li>
+      <li><a href="#project" data-i18n="navProject">The Home</a></li>
+      <li><a href="#gallery" data-i18n="navGallery">Gallery</a></li>
+      <li><a href="#sustainability" data-i18n="navSustainability">Sustainability</a></li>
+      <li><a href="#location" data-i18n="navLocation">Location</a></li>
+      <li><a href="#process" data-i18n="navProcess">Process</a></li>
+      <li><a href="#faq" data-i18n="navFaq">FAQ</a></li>
+      <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+      <li><button class="lang-switch" onclick="toggleLanguage()">DE</button></li>
+    </ul>
+    <button class="menu-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <span class="hero-tag" data-i18n="heroTag">Aureus Homes AG — Smart Living</span>
+    <h1 data-i18n="heroTitle">More Home.<br>Fewer Compromises.</h1>
+    <p data-i18n="heroSub">Modern houses for a new generation. Thoughtfully designed, sustainably built, and move-in ready in just 5 months.</p>
+    <div class="hero-btns">
+      <a href="#project" class="btn btn-primary" data-i18n="heroBtn1">Discover the Project</a>
+      <a href="#contact" class="btn btn-outline" data-i18n="heroBtn2">Request Information</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span data-i18n="scrollText">Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- BRAND INTRO -->
+<section class="section brand-intro" id="brand">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="brandTag">Our Philosophy</span>
+      <h2 class="section-title" data-i18n="brandTitle">Architecture You Can Actually Afford</h2>
+      <p class="section-subtitle center" data-i18n="brandSub">Aureus Homes represents a new generation of family homes in Switzerland — modern, high-quality, and thoughtfully designed for real life.</p>
+    </div>
+    <div class="brand-grid">
+      <div class="reveal">
+        <img src="images/homefront.png" alt="Aureus Home exterior" class="brand-img">
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="brand-values">
+          <div class="value-item">
+            <div class="value-icon">✦</div>
+            <div><h4 data-i18n="val1Title">Premium Quality</h4><p data-i18n="val1Desc">High-quality materials and finishes that stand the test of time.</p></div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">◈</div>
+            <div><h4 data-i18n="val2Title">Modern Design</h4><p data-i18n="val2Desc">Clean architecture with generous light and space.</p></div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">◎</div>
+            <div><h4 data-i18n="val3Title">Fair Pricing</h4><p data-i18n="val3Desc">Transparent pricing without hidden costs or luxury markups.</p></div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">⏱</div>
+            <div><h4 data-i18n="val4Title">Fast Handover</h4><p data-i18n="val4Desc">Move-in ready in just 5 months from signing. Efficient and reliable.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="project">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="featTag">Key Features</span>
+      <h2 class="section-title" data-i18n="featTitle">Designed for Modern Living</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal"><span class="feature-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><line x1="12" y1="3" x2="12" y2="21"/><line x1="3" y1="12" x2="21" y2="12"/></svg></span><h3 data-i18n="feat1Title">Floor-length Windows</h3><p data-i18n="feat1Desc">Premium metal-clad, floor-length windows with triple glazing flood every room with natural daylight.</p></div>
+      <div class="feature-card reveal reveal-delay-1"><span class="feature-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/></svg></span><h3 data-i18n="feat2Title">Underfloor Heating</h3><p data-i18n="feat2Desc">Even warmth throughout with energy-efficient air-to-water heat pump technology.</p></div>
+      <div class="feature-card reveal reveal-delay-2"><span class="feature-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5"/><path d="M14.5 10a3.5 3.5 0 0 0-5 0l-7 7a2.12 2.12 0 0 0 3 3l7-7"/><path d="M10 14l1 1"/></svg></span><h3 data-i18n="feat3Title">Premium Oak Flooring</h3><p data-i18n="feat3Desc">Three color options available. Durable, warm, and timeless.</p></div>
+      <div class="feature-card reveal reveal-delay-1"><span class="feature-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span><h3 data-i18n="feat4Title">Smart-Home Ready</h3><p data-i18n="feat4Desc">Pre-wired infrastructure for your choice of smart home system. Smart home features can be equipped on request (optional).</p></div>
+      <div class="feature-card reveal reveal-delay-2"><span class="feature-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span><h3 data-i18n="feat5Title">Modern Security Doors</h3><p data-i18n="feat5Desc">Security doors meeting the highest modern safety and locking standards.</p></div>
+      <div class="feature-card reveal reveal-delay-3"><span class="feature-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span><h3 data-i18n="feat6Title">Photovoltaic Ready</h3><p data-i18n="feat6Desc">Prepared for solar panel installation.</p></div>
+      <div class="feature-card reveal"><span class="feature-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h18M3 7h18M3 11h18M3 15h18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg></span><h3 data-i18n="feat7Title">Motorized Blinds</h3><p data-i18n="feat7Desc">All windows equipped with electric, motorized blinds for maximum comfort and privacy.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PREMIUM SPECIFICATIONS -->
+<section class="section" style="background: var(--warm-white);">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="specTag">Quality Details</span>
+      <h2 class="section-title" data-i18n="specTitle">Premium Standard Equipment</h2>
+    </div>
+    <div class="features-grid" style="margin-top: 40px;">
+      <div class="feature-card reveal"><h4 data-i18n="spec1Title" style="color: var(--gold); margin-bottom: 10px;">Entrance & Doors</h4><p data-i18n="spec1Desc">Modern security entrance doors and designer handles throughout.</p></div>
+      <div class="feature-card reveal reveal-delay-1"><h4 data-i18n="spec2Title" style="color: var(--gold); margin-bottom: 10px;">Windows & Blinds</h4><p data-i18n="spec2Desc">Triple-glazed windows with high-end handles and motorized blinds.</p></div>
+      <div class="feature-card reveal reveal-delay-2"><h4 data-i18n="spec3Title" style="color: var(--gold); margin-bottom: 10px;">Bathroom Fixtures</h4><p data-i18n="spec3Desc">Premium washbasins with vanity units, bathtubs, and modern fittings.</p></div>
+      <div class="feature-card reveal"><h4 data-i18n="spec4Title" style="color: var(--gold); margin-bottom: 10px;">Interiors & Storage</h4><p data-i18n="spec4Desc">Bespoke built-in closets in the entrance area.</p></div>
+      <div class="feature-card reveal reveal-delay-1"><h4 data-i18n="spec5Title" style="color: var(--gold); margin-bottom: 10px;">Lighting & Electrical</h4><p data-i18n="spec5Desc">Surface-mounted ceiling spotlights and comprehensive electrical layout plans.</p></div>
+      <div class="feature-card reveal reveal-delay-2"><h4 data-i18n="spec6Title" style="color: var(--gold); margin-bottom: 10px;">Finishing Options</h4><p data-i18n="spec6Desc">Choose from up to 3 different oak flooring options and premium tiling.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE: INTERIOR -->
+<section class="showcase">
+  <div class="showcase-grid">
+    <div class="showcase-img" style="background-image: url('images/modern_living_room_decor_render.png')"></div>
+    <div class="showcase-content">
+      <span class="section-tag" data-i18n="showTag1">Interior Living</span>
+      <h2 class="section-title" data-i18n="showTitle1">Generous Spaces,<br>Premium Finishes</h2>
+      <p class="section-subtitle" data-i18n="showSub1">This is not a small smart house. It offers spacious family living with 131 m² of net living area and 2.40 m ceiling height.</p>
+      <ul class="detail-list">
+        <li data-i18n="showList1a">Open-plan living and dining areas</li>
+        <li data-i18n="showList1b">Premium oak flooring throughout</li>
+        <li data-i18n="showList1c">Floor-length windows for maximum daylight</li>
+        <li data-i18n="showList1d">Smart-home ready infrastructure (optional smart home features on request)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE: BATHROOM -->
+<section class="showcase">
+  <div class="showcase-grid">
+    <div class="showcase-content bg-dark">
+      <span class="section-tag" data-i18n="showTag2">Bathrooms</span>
+      <h2 class="section-title" data-i18n="showTitle2">Modern Bathrooms,<br>Functional & Comfortable</h2>
+      <p class="section-subtitle" data-i18n="showSub2">Modern bathroom spaces designed to combine functionality and comfort.</p>
+      <ul class="detail-list">
+        <li data-i18n="showList2a">Full bathroom with bathtub and shower</li>
+        <li data-i18n="showList2b">Second bathroom with walk-in shower</li>
+        <li data-i18n="showList2c">Additional guest toilet</li>
+        <li data-i18n="showList2d">Premium fittings throughout</li>
+      </ul>
+    </div>
+    <div class="showcase-img" style="background-image: url('images/modern_beige_bathroom_interior_render.png')"></div>
+  </div>
+</section>
+
+<!-- KEY FACTS -->
+<section class="facts-bar">
+  <div class="container">
+    <div class="facts-grid">
+      <div class="fact-item"><h3><span class="counter" data-target="131" data-suffix=" m²">0</span></h3><p data-i18n="fact1Label">Net Living Area</p></div>
+      <div class="fact-item"><h3><span class="counter" data-target="2.40" data-suffix=" m">0</span></h3><p data-i18n="fact2Label">Ceiling Height</p></div>
+      <div class="fact-item"><h3><span class="counter" data-target="80" data-suffix="%">0</span></h3><p data-i18n="fact3Label">Wood Content</p></div>
+      <div class="fact-item"><h3><span class="counter" data-target="4">0</span></h3><p data-i18n="fact4Label">Bedrooms</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section class="section gallery-section" id="gallery">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="galleryTag">Photo Gallery</span>
+      <h2 class="section-title" data-i18n="galleryTitle">Explore Every Detail</h2>
+      <p class="section-subtitle center" data-i18n="gallerySub">Browse through our collection of exterior views, interior designs, and room variations to envision your future home.</p>
+    </div>
+
+    <!-- Gallery Filter Tabs -->
+    <div class="gallery-tabs reveal">
+      <button class="gallery-tab active" data-filter="all"><span data-i18n="galAll">All</span></button>
+      <button class="gallery-tab" data-filter="outside"><span data-i18n="galOutside">Outside</span></button>
+      <button class="gallery-tab" data-filter="inside"><span data-i18n="galInside">Inside</span></button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="gallery-grid reveal" id="galleryGrid">
+
+      <!-- OUTSIDE IMAGES -->
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/homefront.png" alt="Modern home front view with carport" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblFront1">Front Elevation</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/home front.png" alt="Home front view" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblFront2">Street View</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/home outside.png" alt="Home outside perspective" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblOutside">Exterior View</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/front garage.png" alt="Front garage and carport" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblGarage">Carport & Entrance</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_house_front_elevation_render.png" alt="Modern house front elevation" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblElevation">Front Elevation Variation</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_house_front_render.png" alt="Modern house front render" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblFrontRender">Daytime Front View</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_house_front_with_carports_render.png" alt="Modern house with carports" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblCarport">Carport Design</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_house_backyard_patio_render.png" alt="Backyard patio" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblPatio">Backyard Terrace</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="outside">
+        <div class="gallery-img-wrap">
+          <img src="images/take_the_road_and_the_gravel_o_Nano_Banana_2_37706.png" alt="Driveway and landscape" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblDriveway">Driveway & Landscaping</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- INSIDE IMAGES -->
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_living_room_decor_render.png" alt="Living room with decor" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblLiving1">Living Room — Décor Setup</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_living_room_sofa_render.png" alt="Living room with sofa" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblLiving2">Living Room — Sofa Layout</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_living_room_pet_render.png" alt="Living room pet-friendly" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblLiving3">Living Room — Pet-Friendly</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_living_room_furniture_render.png" alt="Living room furniture" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblLiving4">Living Room — Furniture Variation</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_living_room_bike_render.png" alt="Living room with bike storage" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblLiving5">Living Room — Active Lifestyle</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_living_room_with_wall_tv_render.png" alt="Living room with wall TV" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblLiving6">Living Room — Entertainment Setup</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_living_room_man_render.png" alt="Living room lifestyle" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblLiving7">Living Room — Lifestyle View</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/dining.png" alt="Dining area" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblDining1">Dining Area</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/minimalist_dining_room_interior_render.png" alt="Minimalist dining room" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblDining2">Dining Room — Minimalist Setup</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_kitchen_with_island_and_barstools_render.png" alt="Kitchen with island" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblKitchen">Kitchen — Island Layout</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_entry_hallway_with_welcome_poster_render.png" alt="Entry hallway" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblHall1">Entrance Hallway</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_hallway_render.png" alt="Modern hallway" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblHall2">Hallway — Variation A</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_hallway_with_dog_poster_render.png" alt="Hallway with wall art" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblHall3">Hallway — Variation B</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/minimalist_hallway_with_wall_art_render.png" alt="Minimalist hallway" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblHall4">Hallway — Minimalist</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/The_window_consists_of_two_par_Nano_Banana_2_55621.png" alt="Premium window detail" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblWindow">Floor-Length Window Detail</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- BEDROOM IMAGES -->
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/bedroom.png" alt="Master bedroom" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed1">Master Bedroom — Layout A</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/bdroom.png" alt="Bedroom variation" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed2">Master Bedroom — Layout B</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/bderoom3.png" alt="Bedroom three" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed3">Bedroom — Layout C</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/bedroom4.png" alt="Bedroom four" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed4">Bedroom — Layout D</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_bedroom_interior_render.png" alt="Modern bedroom interior" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed5">Modern Bedroom — Premium</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_bedroom_render.png" alt="Modern bedroom render" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed6">Modern Bedroom — Variation</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_bedroom_carpet_render.png" alt="Bedroom with carpet" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed7">Bedroom — Carpet Setup</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_bedroom kid_lighting_render.png" alt="Kids bedroom" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBed8">Kids Bedroom</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- BATHROOM & DRESSING IMAGES -->
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/modern_beige_bathroom_interior_render.png" alt="Modern beige bathroom" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblBath1">Premium Bathroom</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/dressingroom.png" alt="Dressing room" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblDress1">Dressing Room</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/makup area.png" alt="Makeup area" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblMakeup">Vanity & Makeup Area</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/take_the_long_mirror_out_repla_Nano_Banana_2_03230.png" alt="Dressing room mirror variation" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblDress2">Dressing Room — Variation</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/the_dress_looks_like_it_has_le_Nano_Banana_2_54347.png" alt="Wardrobe setup" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblDress3">Walk-in Closet</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="inside">
+        <div class="gallery-img-wrap">
+          <img src="images/the_picture_in_the_back_please_Nano_Banana_2_39587.png" alt="Dressing area variation" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-label" data-i18n="galLblDress4">Dressing Area — Premium</span>
+            <button class="gallery-expand" aria-label="Expand image">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="load-more-container" style="text-align: center; margin-top: 40px; display: none; gap: 16px; justify-content: center;">
+      <button id="loadMoreBtn" class="btn btn-outline" style="color: var(--text-primary); border-color: var(--beige);">See more photos</button>
+      <button id="loadLessBtn" class="btn btn-outline" style="color: var(--text-primary); border-color: var(--beige); display: none;">See less photos</button>
+    </div>
+    <p class="gallery-disclaimer reveal" data-i18n="galleryDisclaimer">
+      The images are for illustrative purposes only and are intended to provide a general impression. They do not form part of the specification of works. Please refer to the Building Specification for the definitive description of materials, finishes, and scope of delivery.
+    </p>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+  <button class="lightbox-prev" aria-label="Previous image">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <div class="lightbox-content">
+    <img src="" alt="Gallery image enlarged" id="lightboxImg">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+  <button class="lightbox-next" aria-label="Next image">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
+  <div class="lightbox-counter" id="lightboxCounter"></div>
+</div>
+
+<!-- SUSTAINABILITY -->
+<section class="section sustainability" id="sustainability">
+  <div class="container">
+    <div class="sustain-grid">
+      <div class="sustain-img-wrap reveal">
+        <img src="images/wall_structure.png" alt="CLT Wall Construction" class="sustain-img">
+      </div>
+      <div class="reveal reveal-delay-2">
+        <span class="section-tag" data-i18n="susTag">Sustainability</span>
+        <h2 class="section-title" data-i18n="susTitle">Advantages of a Cross-Laminated Timber (CLT) Wall with External High-Performance Insulation</h2>
+        <div class="sustain-advantages">
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv1Title">High Structural Strength</h4>
+            <p data-i18n="susAdv1Desc">Cross-laminated timber (CLT) panels provide exceptional structural performance, dimensional stability, and durability. The crosswise arrangement of multiple timber layers creates a strong and rigid construction system capable of carrying substantial loads while maintaining long-term stability.</p>
+          </div>
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv2Title">Excellent Energy Efficiency</h4>
+            <p data-i18n="susAdv2Desc">The combination of CLT and external high-performance insulation creates a highly energy-efficient building envelope with excellent thermal performance and reduced heating and cooling costs.</p>
+          </div>
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv3Title">Outstanding Thermal Comfort</h4>
+            <p data-i18n="susAdv3Desc">External insulation minimizes thermal bridges and helps maintain stable indoor temperatures throughout the year, creating a comfortable living environment in both summer and winter.</p>
+          </div>
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv4Title">Healthy Indoor Climate</h4>
+            <p data-i18n="susAdv4Desc">Timber naturally contributes to a pleasant indoor atmosphere and helps regulate humidity levels, enhancing overall living comfort.</p>
+          </div>
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv5Title">Sustainability and Low Carbon Footprint</h4>
+            <p data-i18n="susAdv5Desc">CLT is produced from renewable wood resources and stores carbon throughout the life of the building. This significantly reduces the environmental impact compared to many conventional construction methods.</p>
+          </div>
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv6Title">Fast Construction Process</h4>
+            <p data-i18n="susAdv6Desc">CLT elements are prefabricated with high precision and assembled quickly on site, resulting in shorter construction times and improved quality control.</p>
+          </div>
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv7Title">Improved Airtightness</h4>
+            <p data-i18n="susAdv7Desc">Large-format CLT panels combined with external insulation facilitate the creation of a highly airtight building envelope, improving energy performance and reducing unwanted heat loss.</p>
+          </div>
+          <div class="sustain-card reveal">
+            <h4 data-i18n="susAdv8Title">Excellent Acoustic Performance</h4>
+            <p data-i18n="susAdv8Desc">CLT wall systems with external insulation provide very good sound insulation and a quiet, comfortable indoor environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TERRACE / OUTDOOR -->
+<section class="showcase">
+  <div class="showcase-grid">
+    <div class="showcase-img" style="background-image: url('images/modern_house_backyard_patio_render.png')"></div>
+    <div class="showcase-content bg-dark">
+      <span class="section-tag" data-i18n="terraceTag">Outdoor Living</span>
+      <h2 class="section-title" data-i18n="terraceTitle">Your Private Retreat</h2>
+      <p class="section-subtitle" data-i18n="terraceSub">A generous 20 m² garden terrace with premium Fundermax surface — slip-resistant, maintenance-free, and built to last.</p>
+      <ul class="detail-list">
+        <li data-i18n="terraceList1">Approx. 20 m² premium Fundermax slabs on a metal substructure</li>
+        <li data-i18n="terraceList2">Slip-resistant Fundermax surface</li>
+        <li data-i18n="terraceList3">Maintenance-free and highly durable</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="section" id="location">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="locTag">Location</span>
+      <h2 class="section-title" data-i18n="locTitle">Herbstweg, 5722 Gränichen AG</h2>
+      <p class="section-subtitle center" data-i18n="locSub">A quiet, family-friendly residential location with excellent infrastructure — close to nature, close to everything.</p>
+    </div>
+    <div class="location-img-wrap reveal">
+      <img src="images/modern_house_front_elevation_render.png" alt="Gränichen aerial view">
+    </div>
+    <div class="distances reveal">
+      <div class="distance-card"><h4 data-i18n="locZurich">Zürich Altstetten</h4><div class="time">~35</div><div class="km" data-i18n="locMin">min</div><div class="km">42 <span data-i18n="locKm">km</span></div></div>
+      <div class="distance-card"><h4 data-i18n="locBasel">Basel</h4><div class="time">~50</div><div class="km" data-i18n="locMin">min</div><div class="km">60 <span data-i18n="locKm">km</span></div></div>
+      <div class="distance-card"><h4 data-i18n="locBern">Bern</h4><div class="time">~60</div><div class="km" data-i18n="locMin">min</div><div class="km">75 <span data-i18n="locKm">km</span></div></div>
+      <div class="distance-card"><h4 data-i18n="locLuzern">Luzern</h4><div class="time">~40</div><div class="km" data-i18n="locMin">min</div><div class="km">40 <span data-i18n="locKm">km</span></div></div>
+    </div>
+    <!-- Infrastructure -->
+    <div style="margin-top: 80px;">
+      <div class="text-center reveal">
+        <span class="section-tag" data-i18n="locBenefitTag">Family Infrastructure</span>
+        <h2 class="section-title" data-i18n="locBenefitTitle">Location Benefits – Herbstweg, Gränichen</h2>
+      </div>
+      <div class="benefits-grid" style="margin-top: 40px;">
+        <!-- Card 1: Education & Childcare -->
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+          </div>
+          <h3 data-i18n="locBene1Title">Education & Childcare</h3>
+          <ul class="benefit-list">
+            <li data-i18n="locBene1_1">Several kindergartens are located within the municipality of Gränichen.</li>
+            <li data-i18n="locBene1_2">Primary and secondary schools are available directly in Gränichen.</li>
+            <li data-i18n="locBene1_3">Children can complete almost their entire compulsory education within the local school system.</li>
+            <li data-i18n="locBene1_4">Additional educational facilities, including higher-level schools, are easily accessible in nearby Aarau.</li>
+          </ul>
+        </div>
+        
+        <!-- Card 2: Public Transport -->
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="16" rx="2"/><path d="M4 11h16M12 3v8M8 19l-2 3M16 19l2 3M8 15h.01M16 15h.01"/></svg>
+          </div>
+          <h3 data-i18n="locBene2Title">Public Transport</h3>
+          <ul class="benefit-list">
+            <li data-i18n="locBene2_1">Nearby bus stops provide convenient connections within Gränichen and the surrounding region.</li>
+            <li data-i18n="locBene2_2">Gränichen railway station offers regular train services towards Aarau and the Wynental region.</li>
+            <li data-i18n="locBene2_3">Aarau city center can be reached in approximately 10–15 minutes by public transport or car.</li>
+            <li data-i18n="locBene2_4">Excellent connections to the Swiss national rail and road network.</li>
+          </ul>
+        </div>
+
+        <!-- Card 3: Shopping & Daily Amenities -->
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </div>
+          <h3 data-i18n="locBene3Title">Shopping & Daily Amenities</h3>
+          <ul class="benefit-list">
+            <li data-i18n="locBene3_1">Migros supermarket</li>
+            <li data-i18n="locBene3_2">Coop supermarket</li>
+            <li data-i18n="locBene3_3">Denner discount store</li>
+            <li data-i18n="locBene3_4">Volg convenience store</li>
+            <li data-i18n="locBene3_5">LANDI market</li>
+            <li data-i18n="locBene3_6">Additional local shops, bakeries, pharmacies, banks, and services are located in the village center.</li>
+          </ul>
+        </div>
+
+        <!-- Card 4: Recreation & Outdoor Activities -->
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2a6 6 0 0 0-6 6c0 3.2 2.5 5.8 5.7 6h.3v6h-4v2h10v-2h-4v-6h.3A6 6 0 0 0 12 2z"/></svg>
+          </div>
+          <h3 data-i18n="locBene4Title">Recreation & Outdoor Activities</h3>
+          <ul class="benefit-list">
+            <li data-i18n="locBene4_1">Extensive forests and walking trails begin just minutes from the development.</li>
+            <li data-i18n="locBene4_2">Beautiful cycling and hiking routes throughout the Wynental region.</li>
+            <li data-i18n="locBene4_3">The nearby Liebegg area offers one of the most attractive recreational landscapes in the region.</li>
+            <li data-i18n="locBene4_4">Multiple playgrounds, sports facilities, and family-friendly outdoor spaces.</li>
+            <li data-i18n="locBene4_5">Numerous opportunities for jogging, mountain biking, hiking, and nature activities.</li>
+          </ul>
+        </div>
+
+        <!-- Card 5: Family-Friendly Environment -->
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 data-i18n="locBene5Title">Family-Friendly Environment</h3>
+          <ul class="benefit-list">
+            <li data-i18n="locBene5_1">Quiet residential neighborhood with low traffic volumes.</li>
+            <li data-i18n="locBene5_2">Safe and child-friendly surroundings.</li>
+            <li data-i18n="locBene5_3">Strong local community and village character.</li>
+            <li data-i18n="locBene5_4">Excellent balance between rural tranquility and urban accessibility.</li>
+          </ul>
+        </div>
+
+        <!-- Card 6: Summary -->
+        <div class="benefit-card featured reveal reveal-delay-2">
+          <h3 data-i18n="locBeneSumTitle">Summary</h3>
+          <p data-i18n="locBeneSummary">Herbstweg in Gränichen offers an ideal combination of family-friendly living, excellent educational facilities, convenient public transportation, comprehensive shopping amenities, and outstanding recreational opportunities. Residents benefit from a peaceful natural setting while remaining well connected to Aarau and the greater Zurich region.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" style="background: var(--warm-white); text-align: center;">
+  <div class="container reveal">
+    <span class="section-tag" data-i18n="priceTag">Investment</span>
+    <h2 class="section-title" data-i18n="priceTitle">Premium home ownership</h2>
+    <h2 style="font-size: clamp(2rem, 4vw, 3.5rem); color: var(--gold); margin: 20px 0;" data-i18n="priceAmount">CHF 1,060,000</h2>
+    <p class="section-subtitle center" data-i18n="priceSub">Architecture, quality, and sustainability — at a price that still feels attainable.</p>
+    <a href="#contact" class="btn btn-dark" style="margin-top: 30px;" data-i18n="heroBtn2">Request Information</a>
+  </div>
+</section>
+
+<!-- PURCHASE PROCESS -->
+<section class="section process" id="process">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="processTag">Purchase Process</span>
+      <h2 class="section-title" data-i18n="processTitle">Transparent. Structured. Secure.</h2>
+      <p class="section-subtitle center" data-i18n="processSub">A clearly structured purchasing process supports trust and planning security.</p>
+    </div>
+    <div class="timeline reveal">
+      <div class="timeline-step"><div class="step-num">1</div><div class="step-title" data-i18n="step1Title">Reservation</div><div class="step-amount" data-i18n="step1Amount">CHF 50,000</div><div class="step-desc" data-i18n="step1Desc">Reservation deposit</div></div>
+      <div class="timeline-step"><div class="step-num">2</div><div class="step-title" data-i18n="step2Title">Notary</div><div class="step-amount" data-i18n="step2Amount">CHF 660,000</div><div class="step-desc" data-i18n="step2Desc">Land + first payment</div></div>
+      <div class="timeline-step"><div class="step-num">3</div><div class="step-title" data-i18n="step3Title">Production</div><div class="step-amount" data-i18n="step3Amount">CHF 200,000</div><div class="step-desc" data-i18n="step3Desc">Start of construction</div></div>
+      <div class="timeline-step"><div class="step-num">4</div><div class="step-title" data-i18n="step4Title">Assembly</div><div class="step-amount" data-i18n="step4Amount">CHF 120,000</div><div class="step-desc" data-i18n="step4Desc">On-site assembly</div></div>
+      <div class="timeline-step"><div class="step-num">5</div><div class="step-title" data-i18n="step5Title">Handover</div><div class="step-amount" data-i18n="step5Amount">CHF 30,000</div><div class="step-desc" data-i18n="step5Desc">Final payment</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="faqTag">Common Questions</span>
+      <h2 class="section-title" data-i18n="faqTitle">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item"><button class="faq-q"><span data-i18n="faq1Q">Why is there no basement?</span><span class="icon">+</span></button><div class="faq-a"><p data-i18n="faq1A">Instead of an expensive basement, we provide 26 m² of practical net storage space right where you need it: 10 m² right next to the carport, 6 m² right next to the entrance door, and 10 m² inside the house (including 4 m² of built-in closets). This keeps costs transparent and living efficient.</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span data-i18n="faq2Q">Kitchen</span><span class="icon">+</span></button><div class="faq-a"><p data-i18n="faq2A">To maintain affordability and provide maximum cost transparency, the standard purchase price does not include a kitchen.<br><br>A fully fitted kitchen can be added as an optional package for a largely fixed and predictable price. The kitchen has been carefully selected to offer an attractive combination of quality, functionality, and value.<br><br>Buyers may choose from a limited selection of finishes and colours. However, in order to achieve economies of scale and keep costs under control, the overall layout, specification, and equipment package remain substantially as illustrated and described.<br><br>This approach allows homeowners to benefit from a high-quality, modern kitchen while avoiding the additional costs and complexity typically associated with fully customized kitchen designs.</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span data-i18n="faq3Q">What customization options are available?</span><span class="icon">+</span></button><div class="faq-a"><p data-i18n="faq3A">You can choose from three premium oak flooring colors and have full freedom in kitchen design. The home is smart-home ready (features equipped on request) and photovoltaic prepared for future upgrades.</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span data-i18n="faq4Q">How does the construction method work?</span><span class="icon">+</span></button><div class="faq-a"><p data-i18n="faq4A">The homes are based on modern timber construction and high-quality prefabrication, combining sustainable materials with precise engineering for exceptional quality and efficiency.</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span data-i18n="faq5Q">Is the home prepared for future extensions?</span><span class="icon">+</span></button><div class="faq-a"><p data-i18n="faq5A">Yes. The flat roof is structurally prepared for a future attic extension, giving you room to grow with your family.</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span data-i18n="faq6Q">What about the landscaping?</span><span class="icon">+</span></button><div class="faq-a"><p data-i18n="faq6A">The outdoor areas are designed with a clear focus on simplicity, functionality and long-term flexibility. To keep overall project costs efficient while allowing homeowners to personalize their property over time, the landscaping concept is intentionally clean and low-maintenance. The garden is delivered levelled and prepared, with grass seeding where required, creating a solid and practical foundation for future individual landscaping ideas. The carport area features compacted gravel, while concrete paving slabs provide a clean and durable access path to the house. This approach keeps the exterior tidy, functional and move-in ready from day one — while leaving room for personal touches and future enhancements at the homeowner's own pace.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" data-i18n="contactTag">Get in Touch</span>
+      <h2 class="section-title" data-i18n="contactTitle">Contact & Founder Profile</h2>
+      <p class="section-subtitle center" data-i18n="contactSub">Have questions? Reach out to us directly via email or phone.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="founder-img-wrap">
+        <img src="images/kurt_herpel.jpg" alt="Kurt Herpel" class="founder-img">
+      </div>
+      <div class="founder-info">
+        <h3 class="founder-name">Kurt Herpel</h3>
+        <span class="founder-title" data-i18n="founderTitle">Founder of Aureus Homes</span>
+        <div class="founder-bio">
+          <p data-i18n="founderBio1">Kurt Herpel is a Swiss real estate developer and entrepreneur with more than 15 years of experience in residential property development. Over the course of his career, he has successfully planned and delivered more than 30 residential projects comprising over 120 homes and apartments.</p>
+          <p data-i18n="founderBio2">As the founder of Aureus Homes, his vision is to make high-quality home ownership accessible to a broader range of families. By combining efficient planning, innovative construction methods, and cost-conscious design, Aureus Homes creates homes that offer exceptional value without compromising quality, comfort, or sustainability.</p>
+          <p data-i18n="founderBio3">Drawing on decades of practical experience in real estate development, Kurt is committed to delivering thoughtfully designed homes that meet the needs of modern families while remaining affordable, functional, and easy to own.</p>
+        </div>
+        <div class="contact-methods">
+          <div class="contact-method-item">
+            <span class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+            <div class="method-text">
+              <span class="label" data-i18n="contactEmailLabel">Email Address</span>
+              <a href="mailto:info@aureus-homes.ch" class="value">info@aureus-homes.ch</a>
+            </div>
+          </div>
+          <div class="contact-method-item">
+            <span class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <div class="method-text">
+              <span class="label" data-i18n="contactPhoneLabel">Phone Number</span>
+              <a href="tel:+41798741322" class="value" data-i18n="contactPhone">+41 79 874 13 22</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo"><img src="images/LOGONEW.png" alt="Aureus Homes" class="logo-img footer-logo"></a>
+        <p data-i18n="footerDesc">Modern family homes in Switzerland. Premium. Attainable. Sustainable.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footerNav">Navigation</h4>
+        <ul>
+          <li><a href="#home" data-i18n="navHome">Home</a></li>
+          <li><a href="#project" data-i18n="navProject">The Home</a></li>
+          <li><a href="#gallery" data-i18n="navGallery">Gallery</a></li>
+          <li><a href="#sustainability" data-i18n="navSustainability">Sustainability</a></li>
+          <li><a href="#location" data-i18n="navLocation">Location</a></li>
+          <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="copyright">© 2026 Aureus Homes AG. All rights reserved.</p>
+      <p>Aureus Homes — Smart Living.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
