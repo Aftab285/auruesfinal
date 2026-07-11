@@ -56,17 +56,23 @@ const translations = {
     galLblFront1: "Front Elevation", galLblFront2: "Street View", galLblOutside: "Exterior View", galLblGarage: "Carport & Entrance",
     galLblElevation: "Front Elevation Variation", galLblFrontRender: "Daytime Front View", galLblCarport: "Carport Design",
     galLblPatio: "Backyard Terrace", galLblDriveway: "Driveway & Landscaping",
-    galLblLiving1: "Living Room — Décor Setup", galLblLiving2: "Living Room — Sofa Layout", galLblLiving3: "Living Room — Pet-Friendly",
+    galLblOutsideGrill: "Outdoor Grill Area",
+    galLblOutsideWall: "Modern Wooden Wall",
+    galLblOutsideTesla: "Carport with Tesla",
+    galLblOutsideStroller: "Main Entrance View",
+    galLblOutsideBins: "Trash Can Enclosure",
+    galLblOutsideGarden: "Landscaped Garden View",
+    galLblLiving1: "Living Room — Décor Setup", galLblLiving3: "Living Room — Pet-Friendly",
     galLblLiving4: "Living Room — Furniture Variation", galLblLiving5: "Living Room — Active Lifestyle",
     galLblLiving6: "Living Room — Entertainment Setup", galLblLiving7: "Living Room — Lifestyle View",
-    galLblDining1: "Dining Area", galLblDining2: "Dining Room — Minimalist Setup", galLblKitchen: "Kitchen — Island Layout",
-    galLblHall1: "Entrance Hallway", galLblHall2: "Hallway — Variation A", galLblHall3: "Hallway — Variation B",
+    galLblDining1: "Dining Area", galLblDining2: "Dining Room — Minimalist Setup", galLblDining3: "Dining Area — Variation", galLblKitchen: "Kitchen — Island Layout",
+    galLblHall2: "Hallway — Variation A", galLblHall3: "Hallway — Variation B",
     galLblHall4: "Hallway — Minimalist", galLblWindow: "Floor-Length Window Detail",
     galLblBed1: "Master Bedroom — Layout A", galLblBed2: "Master Bedroom — Layout B", galLblBed3: "Bedroom — Layout C",
     galLblBed4: "Bedroom — Layout D", galLblBed5: "Modern Bedroom — Premium", galLblBed6: "Modern Bedroom — Variation",
     galLblBed7: "Bedroom — Carpet Setup", galLblBed8: "Kids Bedroom",
     galLblBath1: "Premium Bathroom", galLblDress1: "Dressing Room", galLblMakeup: "Vanity & Makeup Area",
-    galLblDress2: "Dressing Room — Variation", galLblDress3: "Walk-in Closet", galLblDress4: "Dressing Area — Premium",
+    galLblDress2: "Dressing Room — Variation", galLblDress3: "Walk-in Closet", galLblStudio: "Creative Studio",
     susTag: "Sustainability",
     susTitle: "Advantages of a Cross-Laminated Timber (CLT) Wall with External High-Performance Insulation",
     susAdv1Title: "High Structural Strength",
@@ -166,7 +172,80 @@ const translations = {
     contactPhone: "+41 79 874 13 22",
     footerDesc: "Modern family homes in Switzerland. Premium. Attainable. Sustainable.",
     footerNav: "Navigation",
-    copyright: "© 2026 Aureus Homes AG. All rights reserved."
+    copyright: "© 2026 Aureus Homes AG. All rights reserved.",
+    navMaterials: "Materials & Equipment",
+    matTag: "Materials & Equipment",
+    matTitle: "Premium Materials & Equipment",
+    matDesc: "Every Aureus house is delivered with carefully selected premium materials and equipment. Standard features are included in every home, while selected finishes can be upgraded according to the customer's preferences.",
+    matStandardTitle: "Standard Features",
+    matStandardDesc: "High-quality components included in the basic price of every home.",
+    matCustomTitle: "Customization Options",
+    matCustomDesc: "Personalize your Aureus home by choosing from selected premium finishes and upgrade options.",
+    badgeIncluded: "Included at no additional cost",
+    badgeUpgrades: "Upgrade Options Available",
+    badgeUpgrade: "Upgrade",
+    badgeStandard: "✓ Standard Included",
+    priceIncluded: "Included",
+    featDoorIntTitle: "Interior Doors",
+    featDoorIntDesc: "Premium white-lacquered interior doors with solid cores for excellent acoustic insulation.",
+    featDoorEntTitle: "Entrance Door",
+    featDoorEntDesc: "Security entrance door with 5-point locking system and premium thermal insulation.",
+    featBathEqTitle: "Bathroom Equipment",
+    featBathEqDesc: "Elegant wall-mounted vanity units and cabinets with soft-close mechanisms.",
+    featBathFixTitle: "Bathroom Fixtures",
+    featBathFixDesc: "Premium chrome fixtures from leading European manufacturers.",
+    featWashbasinTitle: "Washbasin",
+    featWashbasinDesc: "Premium ceramic washbasins designed for durability and easy cleaning.",
+    featWcTitle: "WC",
+    featWcDesc: "Rimless wall-hung toilets with soft-close seat for maximum hygiene.",
+    featShowerTitle: "Shower",
+    featShowerDesc: "Spacious corner shower with low-profile tray and safety glass enclosure.",
+    featBathtubTitle: "Bathtub",
+    featBathtubDesc: "Modern acrylic bathtub for relaxed comfort and heat retention.",
+    featHandlesTitle: "Door Handles",
+    featHandlesDesc: "Minimalist stainless steel handles with ergonomic design.",
+    featTerraceTitle: "Terrace Doors",
+    featTerraceDesc: "Large sliding glass doors with direct barrier-free access to your terrace.",
+    featWindowsTitle: "Windows",
+    featWindowsDesc: "Triple-glazed windows with metal cladding for high energy efficiency.",
+    opt1Title: "Terrace Cover Colours",
+    opt1Desc: "Select from four curated colors for your terrace cover profile to match your personal exterior design preference.",
+    opt2Title: "Interior Flooring",
+    opt2Desc: "Choose the perfect wood flooring to set the character of your home. We offer standard oak flooring and several premium upgrades.",
+    floorCountryTitle: "Country",
+    floorCountryDesc: "Included in every Aureus home. Clean look with warm oak tones.",
+    floorNatureTitle: "Nature",
+    floorNatureDesc: "Natural oak texture with subtle variation and organic feel.",
+    floorCremeTitle: "Country Creme",
+    floorCremeDesc: "Creamy oak tones that brighten rooms and add modern warmth.",
+    floorVillaTitle: "Villa – Brushed",
+    floorVillaDesc: "Brushed oak texture giving a premium tactile surface underfoot.",
+    floorNovaTitle: "Nova",
+    floorNovaDesc: "Luxurious contemporary tone for high-end modern living.",
+    floorRawTitle: "Raw – Brushed",
+    floorRawDesc: "Raw oak aesthetic with a rugged, organic brushed finish.",
+    floorMezzoTitle: "Mezzo",
+    floorMezzoDesc: "Rich mid-tones that highlight the wood's natural grain.",
+    optDoorsTitle: "Entrance & Side Doors",
+    optDoorsDesc: "Your home features premium custom-made doors designed to ensure safety and elegant aesthetics. Choose your preferred color profile for the main entrance door and side doors.",
+    doorColorsTitle: "Color Selection",
+    doorColorsDesc: "Available in Anthracite Grey (RAL 7022) or Classic White finishes for both the exterior and interior faces of the door.",
+    doorStylesTitle: "Entrance & Side-Doors",
+    doorStylesDesc: "Security doors with a 5-point locking system and premium thermal insulation. Main doors feature a premium vertical pull-bar handle (left), while side doors (carport, storage, utility rooms) come with modern safety lever handles (right).",
+    opt3Title: "Door Handles",
+    opt3Desc: "Browse our selection of premium door handle designs that add a touch of sophistication to your interior doors.",
+    handlePullTitle: "Modern Pull Handle",
+    handlePullDesc: "Sleek pull handle for modern front door design.",
+    handleLeverTitle: "Contemporary Lever Handle",
+    handleLeverDesc: "Premium matte finish lever with high security rating.",
+    handleIntTitle: "Designer Interior Handle",
+    handleIntDesc: "Included stainless steel designer handle for all room doors.",
+    opt4Title: "Kitchen",
+    opt4Desc: "Customize your kitchen layout and select premium cabinetry, worktops, and state-of-the-art appliances.",
+    kitTitle: "Optional Kitchen",
+    kitDesc: "Work with our kitchen designers to create the perfect culinary space matching your architectural preferences. Premium cabinetry, high-end stone worktops, and Swiss-made V-ZUG appliances can be integrated.",
+    badgeUpgradeAvailable: "Upgrade Available",
+    priceOnRequest: "Available on Request"
   },
   de: {
     navHome: "Start", navProject: "Das Haus", navGallery: "Galerie", navSustainability: "Nachhaltigkeit",
@@ -224,17 +303,23 @@ const translations = {
     galLblFront1: "Frontansicht", galLblFront2: "Strassenansicht", galLblOutside: "Aussenansicht", galLblGarage: "Carport & Eingang",
     galLblElevation: "Frontansicht Variation", galLblFrontRender: "Frontansicht bei Tag", galLblCarport: "Carport Design",
     galLblPatio: "Gartenterrasse", galLblDriveway: "Einfahrt & Umgebung",
-    galLblLiving1: "Wohnzimmer — Dekor Setup", galLblLiving2: "Wohnzimmer — Sofa Layout", galLblLiving3: "Wohnzimmer — Haustierfreundlich",
+    galLblOutsideGrill: "Aussen-Grillbereich",
+    galLblOutsideWall: "Moderne Holzwand",
+    galLblOutsideTesla: "Carport mit Tesla",
+    galLblOutsideStroller: "Haupteingang-Ansicht",
+    galLblOutsideBins: "Mülltonnenbox",
+    galLblOutsideGarden: "Garten- und Landschaftsansicht",
+    galLblLiving1: "Wohnzimmer — Dekor Setup", galLblLiving3: "Wohnzimmer — Haustierfreundlich",
     galLblLiving4: "Wohnzimmer — Möbelvariation", galLblLiving5: "Wohnzimmer — Aktiver Lebensstil",
     galLblLiving6: "Wohnzimmer — Entertainment", galLblLiving7: "Wohnzimmer — Lifestyle",
-    galLblDining1: "Essbereich", galLblDining2: "Esszimmer — Minimalistisch", galLblKitchen: "Küche — Kochinsel",
-    galLblHall1: "Eingangsbereich", galLblHall2: "Flur — Variation A", galLblHall3: "Flur — Variation B",
+    galLblDining1: "Essbereich", galLblDining2: "Esszimmer — Minimalistisch", galLblDining3: "Essbereich — Variation", galLblKitchen: "Küche — Kochinsel",
+    galLblHall2: "Flur — Variation A", galLblHall3: "Flur — Variation B",
     galLblHall4: "Flur — Minimalistisch", galLblWindow: "Bodentiefes Fenster",
     galLblBed1: "Hauptschlafzimmer — Layout A", galLblBed2: "Hauptschlafzimmer — Layout B", galLblBed3: "Schlafzimmer — Layout C",
     galLblBed4: "Schlafzimmer — Layout D", galLblBed5: "Modernes Schlafzimmer — Premium", galLblBed6: "Modernes Schlafzimmer — Variation",
     galLblBed7: "Schlafzimmer — Teppich", galLblBed8: "Kinderzimmer",
     galLblBath1: "Premium Badezimmer", galLblDress1: "Ankleidezimmer", galLblMakeup: "Schminkbereich",
-    galLblDress2: "Ankleidezimmer — Variation", galLblDress3: "Begehbarer Kleiderschrank", galLblDress4: "Ankleide — Premium",
+    galLblDress2: "Ankleidezimmer — Variation", galLblDress3: "Begehbarer Kleiderschrank", galLblStudio: "Kreativstudio",
     susTag: "Nachhaltigkeit",
     susTitle: "Vorteile einer Brettsperrholz (CLT)-Wand mit externer Hochleistungsdämmung",
     susAdv1Title: "Hohe strukturelle Festigkeit",
@@ -334,7 +419,80 @@ const translations = {
     contactPhone: "+41 79 874 13 22",
     footerDesc: "Moderne Familienhäuser in der Schweiz. Premium. Erreichbar. Nachhaltig.",
     footerNav: "Navigation",
-    copyright: "© 2026 Aureus Homes AG. Alle Rechte vorbehalten."
+    copyright: "© 2026 Aureus Homes AG. All rights reserved.",
+    navMaterials: "Ausstattung",
+    matTag: "Materialien & Ausstattung",
+    matTitle: "Premium Materialien & Ausstattung",
+    matDesc: "Jedes Aureus-Haus wird mit sorgfältig ausgewählten Premium-Materialien und -Ausstattungen übergeben. Die Standardausstattung ist in jedem Haus enthalten, während ausgewählte Details nach den Wünschen des Kunden angepasst werden können.",
+    matStandardTitle: "Standardausstattung",
+    matStandardDesc: "Hochwertige Komponenten, die im Grundpreis jedes Hauses enthalten sind.",
+    matCustomTitle: "Individualisierung",
+    matCustomDesc: "Personalisieren Sie Ihr Aureus-Haus, indem Sie aus ausgewählten Premium-Oberflächen und Upgrade-Optionen wählen.",
+    badgeIncluded: "Ohne Aufpreis inbegriffen",
+    badgeUpgrades: "Upgrade-Optionen verfügbar",
+    badgeUpgrade: "Upgrade",
+    badgeStandard: "✓ Standard Inbegriffen",
+    priceIncluded: "Inbegriffen",
+    featDoorIntTitle: "Innentüren",
+    featDoorIntDesc: "Hochwertige, weiß lackierte Innentüren mit Röhrenspankern für hervorragenden Schallschutz.",
+    featDoorEntTitle: "Hauseingangstür",
+    featDoorEntDesc: "Sicherheits-Eingangstür mit 5-fach-Verriegelung und hervorragender Wärmedämmung.",
+    featBathEqTitle: "Badmöbel",
+    featBathEqDesc: "Elegante wandhängende Waschtischunterschränke mit Soft-Close-System.",
+    featBathFixTitle: "Sanitärarmaturen",
+    featBathFixDesc: "Hochwertige verchromte Armaturen von führenden europäischen Herstellern.",
+    featWashbasinTitle: "Waschbecken",
+    featWashbasinDesc: "Premium-Keramikwaschbecken, langlebig und besonders pflegeleicht.",
+    featWcTitle: "Gäste-WC",
+    featWcDesc: "Spülrandlose, wandhängende WCs mit Soft-Close-Deckel für maximale Hygiene.",
+    featShowerTitle: "Eckdusche",
+    featShowerDesc: "Großzügige Eckdusche mit flacher Duschwanne und Sicherheitsglas-Kabine.",
+    featBathtubTitle: "Badewanne",
+    featBathtubDesc: "Moderne Acryl-Badewanne für entspannten Komfort und langanhaltende Wärme.",
+    featHandlesTitle: "Türdrücker",
+    featHandlesDesc: "Minimalistische Edelstahlgriffe in ergonomischem Design.",
+    featTerraceTitle: "Terrassentüren",
+    featTerraceDesc: "Große Glasschiebetüren mit direktem, schwellenlosem Zugang zur Terrasse.",
+    featWindowsTitle: "Fenster",
+    featWindowsDesc: "Dreifach verglaste Fenster mit Metallverkleidung für höchste Energieeffizienz.",
+    opt1Title: "Terrassendach-Farben",
+    opt1Desc: "Wählen Sie aus vier kuratierten Farben für Ihr Terrassendachprofil, um es an das äußere Design Ihres Hauses anzupassen.",
+    opt2Title: "Bodenbeläge",
+    opt2Desc: "Wählen Sie den perfekten Holzfußboden, um den Charakter Ihres Hauses zu bestimmen. Wir bieten Standard-Eichenparkett und verschiedene Premium-Upgrades.",
+    floorCountryTitle: "Country",
+    floorCountryDesc: "In jedem Aureus-Haus enthalten. Klarer Look mit warmen Eichentönen.",
+    floorNatureTitle: "Nature",
+    floorNatureDesc: "Natürliche Eichenstruktur mit subtilen Farbvariationen und organischem Gefühl.",
+    floorCremeTitle: "Country Creme",
+    floorCremeDesc: "Cremige Eichentöne, die Räume aufhellen und moderne Wärme spenden.",
+    floorVillaTitle: "Villa – Gebürstet",
+    floorVillaDesc: "Gebürstete Eichenstruktur für eine spürbar strukturierte Oberfläche unter den Füßen.",
+    floorNovaTitle: "Nova",
+    floorNovaDesc: "Luxuriöser, zeitgemäßer Farbton für gehobenen modernen Wohnkomfort.",
+    floorRawTitle: "Raw – Gebürstet",
+    floorRawDesc: "Rohe Eichenoptik mit einem robusten, organisch gebürsteten Finish.",
+    floorMezzoTitle: "Mezzo",
+    floorMezzoDesc: "Reichhaltige Mitteltöne, die die natürliche Maserung des Holzes hervorheben.",
+    optDoorsTitle: "Eingangs- & Nebentüren",
+    optDoorsDesc: "Ihr Haus verfügt über hochwertige, massgefertigte Türen, die Sicherheit und elegante Ästhetik vereinen. Wählen Sie das passende Farbprofil für die Hauseingangstür und Nebentüren.",
+    doorColorsTitle: "Farbauswahl",
+    doorColorsDesc: "Erhältlich in Anthrazitgrau (RAL 7022) oder klassischem Weiss für die Aussen- und Innenseiten der Türen.",
+    doorStylesTitle: "Eingang & Nebentüren",
+    doorStylesDesc: "Sicherheitstüren mit 5-fach-Verriegelung und hervorragender Wärmedämmung. Hauseingangstüren sind mit einem hochwertigen vertikalen Stangengriff (links) ausgestattet, Nebentüren (Carport, Abstellraum, Technik) mit modernen Drückergarnituren (rechts).",
+    opt3Title: "Türgriffe",
+    opt3Desc: "Stöbern Sie in unserer Auswahl an Premium-Türgriffen, die Ihren Innentüren eine raffinierte Note verleihen.",
+    handlePullTitle: "Moderner Stoßgriff",
+    handlePullDesc: "Schlanker Stoßgriff für ein modernes Design der Hauseingangstür.",
+    handleLeverTitle: "Zeitgenössischer Drücker",
+    handleLeverDesc: "Hochwertiger Türdrücker im matten Design mit hoher Sicherheitsklasse.",
+    handleIntTitle: "Designer-Drücker Innen",
+    handleIntDesc: "Inbegriffener Edelstahl-Designergriff für alle Zimmertüren.",
+    opt4Title: "Küche",
+    opt4Desc: "Passen Sie das Layout Ihrer Küche an und wählen Sie Premium-Schränke, Arbeitsplatten und modernste Geräte.",
+    kitTitle: "Optionale Designerküche",
+    kitDesc: "Gestalten Sie gemeinsam mit unseren Küchendesignern den perfekten kulinarischen Raum. Premium-Möbel, hochwertige Stein-Arbeitsplatten und Schweizer V-ZUG Geräte können integriert werden.",
+    badgeUpgradeAvailable: "Upgrade verfügbar",
+    priceOnRequest: "Auf Anfrage erhältlich"
   }
 };
 
@@ -651,6 +809,92 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') showNextImage();
   if (e.key === 'ArrowLeft') showPrevImage();
 });
+
+// ── SLIDERS ──
+function initSlider(sliderId, prevId, nextId, dotsId) {
+  const slider = document.getElementById(sliderId);
+  const prevBtn = document.getElementById(prevId);
+  const nextBtn = document.getElementById(nextId);
+  const dotsContainer = document.getElementById(dotsId);
+
+  if (!slider || !prevBtn || !nextBtn || !dotsContainer) return;
+
+  const getCardWidth = () => {
+    const card = slider.querySelector('.material-card, .floor-card');
+    return card ? card.offsetWidth + 24 : slider.clientWidth; // card width + gap
+  };
+
+  const getDotsCount = () => {
+    const cards = slider.querySelectorAll('.material-card, .floor-card');
+    return cards.length;
+  };
+
+  const dotsCount = getDotsCount();
+
+  // Create dots
+  const createDots = () => {
+    dotsContainer.innerHTML = '';
+    for (let i = 0; i < dotsCount; i++) {
+      const dot = document.createElement('div');
+      dot.className = `slider-dot${i === 0 ? ' active' : ''}`;
+      dot.addEventListener('click', () => {
+        const scrollAmount = getCardWidth();
+        slider.scrollTo({
+          left: i * scrollAmount,
+          behavior: 'smooth'
+        });
+      });
+      dotsContainer.appendChild(dot);
+    }
+  };
+
+  createDots();
+
+  const updateControls = () => {
+    const scrollAmount = getCardWidth();
+    const activeIndex = Math.min(
+      Math.round(slider.scrollLeft / scrollAmount),
+      dotsCount - 1
+    );
+
+    // Update dots active class
+    const dots = dotsContainer.querySelectorAll('.slider-dot');
+    dots.forEach((dot, index) => {
+      if (index === activeIndex) {
+        dot.classList.add('active');
+      } else {
+        dot.classList.remove('active');
+      }
+    });
+
+    // Disable/Enable buttons
+    prevBtn.disabled = slider.scrollLeft <= 10;
+    nextBtn.disabled = slider.scrollLeft >= slider.scrollWidth - slider.clientWidth - 10;
+  };
+
+  prevBtn.addEventListener('click', () => {
+    const scrollAmount = getCardWidth();
+    slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  nextBtn.addEventListener('click', () => {
+    const scrollAmount = getCardWidth();
+    slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
+
+  // Track scroll changes
+  slider.addEventListener('scroll', updateControls);
+
+  // Initial update
+  setTimeout(updateControls, 100);
+
+  // Recalculate on window resize
+  window.addEventListener('resize', updateControls);
+}
+
+// Initialize sliders
+initSlider('standardSlider', 'standardPrev', 'standardNext', 'standardDots');
+initSlider('flooringSlider', 'flooringPrev', 'flooringNext', 'flooringDots');
 
 // ── INIT LANGUAGE ──
 setLanguage('en');
