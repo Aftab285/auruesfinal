@@ -1,8 +1,8 @@
 // ── TRANSLATIONS ──
 const translations = {
   en: {
-    navHome: "Home", navProject: "The Home", navGallery: "Gallery", navSustainability: "Sustainability",
-    navLocation: "Location", navProcess: "Process", navFaq: "FAQ", navContact: "Contact",
+    navHome: "Home", navProject: "The Home", navGallery: "Gallery", navMaterials: "Materials & Equipment", navSustainability: "Sustainability",
+    navLocation: "Location", navPrice: "Price", navProcess: "Process", navFaq: "FAQ", navContact: "Contact",
     heroTag: "Aureus Homes AG — Smart Living",
     heroTitle: "More Home.<br>Fewer Compromises.",
     heroSub: "Modern houses for a new generation. Thoughtfully designed, sustainably built, and move-in ready in just 5 months.",
@@ -246,7 +246,7 @@ const translations = {
   },
   de: {
     navHome: "Start", navProject: "Das Haus", navGallery: "Galerie", navSustainability: "Nachhaltigkeit",
-    navLocation: "Standort", navProcess: "Kaufprozess", navFaq: "FAQ", navContact: "Kontakt",
+    navLocation: "Standort", navPrice: "Preis", navProcess: "Kaufprozess", navFaq: "FAQ", navContact: "Kontakt",
     heroTag: "Aureus Homes AG — Smart Living",
     heroTitle: "Mehr Zuhause.<br>Weniger Kompromisse.",
     heroSub: "Moderne Häuser für eine neue Generation. Durchdacht geplant, nachhaltig gebaut und in nur 5 Monaten bezugsbereit.",
