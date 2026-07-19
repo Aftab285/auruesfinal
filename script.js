@@ -306,7 +306,7 @@ const translations = {
     galLblOutsideStroller: "Haupteingang-Ansicht",
     galLblOutsideBins: "Mülltonnenbox",
     galLblOutsideGarden: "Garten- und Landschaftsansicht",
-    galLblLiving1: "Wohnzimmer",
+    galLblLiving1: "Living Room",
     galLblLiving4: "Wohnzimmer", galLblLiving5: "Home Office",
     galLblDining1: "Essbereich", galLblDining2: "Essbereich", galLblDining3: "Essbereich", galLblKitchen: "Küche",
     galLblHall2: "Flur", galLblHall3: "Flur",
